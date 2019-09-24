@@ -1,0 +1,39 @@
+* {
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.row>div {
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background: cornsilk;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.row>div:hover {
+    opacity: 0.5
+}
+
+.disable>div {
+    vertical-align: top;
+    height: 20px;
+    width: 50px;
+    background: grey;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.disable {
+    margin-left: 20px;
+}
+
+.disable-2 {
+    vertical-align: top;
+    height: 50px !important;
+    width: 20px !important;
+    background: grey !important;
+    border: 2px solid black;
+    display: inline-block;
+}
