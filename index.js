@@ -94,11 +94,10 @@ function generarBombas(cantidadFilas, cantidadColumnas, cantidadDeBombas) {
         document.getElementById(getCellId(celda, cantidadColumnas)).innerHTML = "X";
 
         celdasConBombas.push(celda);
-        cantidadDeBombas--
     }
 
-    return celdasConBombas;
+    return celdasConBombas + 4;
 }
 
 document.getElementById("tablero").innerHTML = generateBoard(5, 7);
-generarBombas(5, 7, 10)
+generarBombas(5, 7, 9)
