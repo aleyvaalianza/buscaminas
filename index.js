@@ -100,4 +100,4 @@ function generarBombas(cantidadFilas, cantidadColumnas, cantidadDeBombas) {
 }
 
 document.getElementById("tablero").innerHTML = generateBoard(5, 7);
-generarBombas(5, 7, 9)
+generarBombas(5, 7, 5)
